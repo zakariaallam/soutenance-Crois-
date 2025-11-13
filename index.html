@@ -15,7 +15,7 @@
         <div class="bg-gray-400">
 
             <header class="flex justify-between h-10 mb-2">
-            <select name="post" id="" class="bg-gray-200">
+            <select name="posts" id="" class="bg-gray-200">
                 <option value="Filtre">Filtre avec post</option>
                 <option value="Gardien">Gardien</option>
                 <option value="Défenseurs">Défenseurs</option>
@@ -26,8 +26,8 @@
             <button id="afiche_modul" class="cursor-pointer bg-blue-700 p-2 rounded-2xl text-white">Ajouté joueur</button>
         </header>
 
-        <div class="bg-gray-400 flex flex-wrap gap-2 " id="bonTouch">
-            <div class="w-30 relative h-47 bg-blue-950 border-blue-500 rounded-b-sm  ">
+        <div  class="bg-gray-400 flex flex-wrap gap-2 " id="bonTouch">
+            <div draggable="true" class="w-30 relative h-47 cursor-pointer bg-blue-950 border-blue-500 rounded-b-sm drag ">
                 <img src="1244-1760996162.png" alt="photo de joueur " class="h-30 w-30">
                 <div class="bg-white">Zakaria allam</div>
                 <div class="bg-amber-400 rounded-[50%] w-8 h-8 content-center font-bold absolute top-0 left-0">Fc</div>
@@ -36,7 +36,7 @@
 
             </div>
 
-            <div class="w-30 relative h-47 bg-blue-950 border-blue-500 rounded-b-sm">
+            <div draggable="true" class="w-30 relative h-47 cursor-pointer bg-blue-950 border-blue-500 rounded-b-sm drag">
                 <img src="image/messi.jpg" alt="photo de joueur" class="h-30 w-30">
                 <div class="bg-white">Zakaria allam</div>
                 <div class="bg-amber-400 rounded-[50%] w-8 h-8 content-center font-bold absolute top-0 left-0">Fc</div>
@@ -50,78 +50,73 @@
         <div class="bg-green-700 grid grid-cols-5 items-center gap-y-20 grid-rows-4 ">
 
            
-                <div class="w-30 relative h-47 justify-self-center  bg-blue-950 border-blue-500 rounded-b-sm col-start-2 col-end-3">
+                <div class="w-30 relative h-47 justify-self-center  bg-blue-950 border-blue-500 rounded-b-sm col-start-2 col-end-3 drop">
                     
 
                 </div>
 
-                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-3 col-end-4">
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-3 col-end-4 drop">
                     
 
                 </div>
 
-                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-4 col-end-5">
-                    <img src="image/ronaldo.jpg" alt="photo de joueur" class="h-30 w-30">
-                    <div class="bg-white">Zakaria allam</div>
-                    <div class="bg-amber-400 rounded-[50%] w-8 h-8 content-center font-bold absolute top-0 left-0">Fc
-                    </div>
-                    <div class="bg-red-600">Morroco</div>
-                    <div class="bg-blue-400">1000 M$</div>
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-4 col-end-5 drop">
+                   
 
                 </div>
 
-                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-1 row-start-2 row-end-3">
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-1 row-start-2 row-end-3 drop">
                     
 
                 </div>
 
-                 <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-2 col-end-3 row-start-2 row-end-3">
+                 <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-2 col-end-3 row-start-2 row-end-3 drop">
                     
 
                 </div>
 
-                 <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-3 col-end-4 row-start-2 row-end-3">
+                 <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-3 col-end-4 row-start-2 row-end-3 drop">
                    
 
                 </div>
 
 
-                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-4 col-end-5 row-start-2 row-end-3">
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-4 col-end-5 row-start-2 row-end-3 drop">
                     
 
                 </div>
             
-                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-5 col-end-6 row-start-2 row-end-3">
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-5 col-end-6 row-start-2 row-end-3 drop">
                     
 
                 </div>
 
-                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-2 col-end-3 row-start-3 row-end-4">
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-2 col-end-3 row-start-3 row-end-4 drop">
                     
 
                 </div>
 
-                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-3 col-end-4 row-start-2 row-end-3">
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-3 col-end-4 row-start-2 row-end-3 drop">
                     
 
                 </div>
 
-                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-2 col-end-3 row-start-3 row-end-4">
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-2 col-end-3 row-start-3 row-end-4 drop">
                     
 
                 </div>
 
-                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-3 col-end-4 row-start-3 row-end-4">
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-3 col-end-4 row-start-3 row-end-4 drop">
                     
 
                 </div>
 
-                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-4 col-end-5 row-start-3 row-end-4">
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-4 col-end-5 row-start-3 row-end-4 drop">
                     
 
                 </div>
 
-                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-3 col-end-4 row-start-4 row-end-5">
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-3 col-end-4 row-start-4 row-end-5 drop">
                     
 
                 </div>
@@ -138,7 +133,7 @@
             <form id="formAjoute" class="grid gap-4">
                 <div class="grid text-start">
                     <label class="font-bold" for="image"> Entrer your image</label>
-                    <input class="bg-blue-800 w-25 text-white mx-auto rounded-2xl p-2" value="uploade" type="file"
+                    <input class="border-gray-300 border-2 rounded-sm value=" type="text"
                         name="image">
                 </div>
 
@@ -150,10 +145,10 @@
                 <div class="grid text-start">
                     <label class="font-bold" for="Post"> Post</label>
                     <select class="border-gray-300 border-2 rounded-sm" name="post" id="post">
-                        <option value="Gardien">GK</option>
-                        <option value="Défenseur">DF</option>
-                        <option value="Milieu">MLD</option>
-                        <option value="Attaquant">FC</option>
+                        <option value="GK">Gardien</option>
+                        <option value="DF">Défenseur</option>
+                        <option value="MLD">Milieu</option>
+                        <option value="FC">Attaquant</option>
                     </select>
                 </div>
 
