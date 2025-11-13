@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="grid  grid-cols-[400px_1fr] h-screen text-center">
+
+        <div class="bg-gray-400">
+
+            <header class="flex justify-between h-10 mb-2">
+            <select name="post" id="" class="bg-gray-200">
+                <option value="Filtre">Filtre avec post</option>
+                <option value="Gardien">Gardien</option>
+                <option value="Défenseurs">Défenseurs</option>
+                <option value="Milieux">Milieux</option>
+                <option value="Attaquants">Attaquants</option>
+            </select>
+
+            <button id="afiche_modul" class="cursor-pointer bg-blue-700 p-2 rounded-2xl text-white">Ajouté joueur</button>
+        </header>
+
+        <div class="bg-gray-400 flex flex-wrap gap-2 " id="bonTouch">
+            <div class="w-30 relative h-47 bg-blue-950 border-blue-500 rounded-b-sm  ">
+                <img src="1244-1760996162.png" alt="photo de joueur " class="h-30 w-30">
+                <div class="bg-white">Zakaria allam</div>
+                <div class="bg-amber-400 rounded-[50%] w-8 h-8 content-center font-bold absolute top-0 left-0">Fc</div>
+                <div class="bg-red-600">Morroco</div>
+                <div class="bg-blue-400">1000 M$</div>
+
+            </div>
+
+            <div class="w-30 relative h-47 bg-blue-950 border-blue-500 rounded-b-sm">
+                <img src="image/messi.jpg" alt="photo de joueur" class="h-30 w-30">
+                <div class="bg-white">Zakaria allam</div>
+                <div class="bg-amber-400 rounded-[50%] w-8 h-8 content-center font-bold absolute top-0 left-0">Fc</div>
+                <div class="bg-red-600">Morroco</div>
+                <div class="bg-blue-400">1000 M$</div>
+
+            </div>
+        </div>
+        </div>
+
+        <div class="bg-green-700 grid grid-cols-5 items-center gap-y-20 grid-rows-4 ">
+
+           
+                <div class="w-30 relative h-47 justify-self-center  bg-blue-950 border-blue-500 rounded-b-sm col-start-2 col-end-3">
+                    
+
+                </div>
+
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-3 col-end-4">
+                    
+
+                </div>
+
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-4 col-end-5">
+                    <img src="image/ronaldo.jpg" alt="photo de joueur" class="h-30 w-30">
+                    <div class="bg-white">Zakaria allam</div>
+                    <div class="bg-amber-400 rounded-[50%] w-8 h-8 content-center font-bold absolute top-0 left-0">Fc
+                    </div>
+                    <div class="bg-red-600">Morroco</div>
+                    <div class="bg-blue-400">1000 M$</div>
+
+                </div>
+
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-1 row-start-2 row-end-3">
+                    
+
+                </div>
+
+                 <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-2 col-end-3 row-start-2 row-end-3">
+                    
+
+                </div>
+
+                 <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-3 col-end-4 row-start-2 row-end-3">
+                   
+
+                </div>
+
+
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-4 col-end-5 row-start-2 row-end-3">
+                    
+
+                </div>
+            
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-5 col-end-6 row-start-2 row-end-3">
+                    
+
+                </div>
+
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-2 col-end-3 row-start-3 row-end-4">
+                    
+
+                </div>
+
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-3 col-end-4 row-start-2 row-end-3">
+                    
+
+                </div>
+
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-2 col-end-3 row-start-3 row-end-4">
+                    
+
+                </div>
+
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-3 col-end-4 row-start-3 row-end-4">
+                    
+
+                </div>
+
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-4 col-end-5 row-start-3 row-end-4">
+                    
+
+                </div>
+
+                <div class="w-30 relative h-47 justify-self-center bg-blue-950 border-blue-500 rounded-b-sm col-start-3 col-end-4 row-start-4 row-end-5">
+                    
+
+                </div>
+
+
+
+        </div>
+
+        <!-- ---------- form ----------- -->
+        <div id="formulair"
+            class=" hidden border-r-indigo-500 border-2 bg-gray-100 p-2  absolute top-[50%] left-[50%] -translate-y-1/2 -translate-x-1/2 w-80">
+            <h2 class="text-blue-900 font-extrabold text-3xl my-3"> Ajoute joueur</h2>
+
+            <form id="formAjoute" class="grid gap-4">
+                <div class="grid text-start">
+                    <label class="font-bold" for="image"> Entrer your image</label>
+                    <input class="bg-blue-800 w-25 text-white mx-auto rounded-2xl p-2" value="uploade" type="file"
+                        name="image">
+                </div>
+
+                <div class="grid text-start">
+                    <label class="font-bold" for="Fullname"> Entrer your Fullname</label>
+                    <input type="text" name="Fullname" class="border-gray-300 border-2 rounded-sm">
+                </div>
+
+                <div class="grid text-start">
+                    <label class="font-bold" for="Post"> Post</label>
+                    <select class="border-gray-300 border-2 rounded-sm" name="post" id="post">
+                        <option value="Gardien">GK</option>
+                        <option value="Défenseur">DF</option>
+                        <option value="Milieu">MLD</option>
+                        <option value="Attaquant">FC</option>
+                    </select>
+                </div>
+
+                <div class="grid text-start">
+                    <label class="font-bold" for="Nationalite"> Entrer your Nationalité</label>
+                    <input type="text" name="Nationalite" class="border-gray-300 border-2 rounded-sm">
+                </div>
+
+                <div class="grid text-start">
+                    <label class="font-bold" for="Prix"> Entrer your Prix</label>
+                    <input type="number" name="Prix" class="border-gray-300 border-2 rounded-sm">
+                </div>
+
+                <button class="bg-blue-800 cursor-pointer text-white rounded-2xl px-2 py-2" type="submit">Ajouté
+                    joueur</button>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
